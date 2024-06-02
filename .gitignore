@@ -1,0 +1,15 @@
+#ignore all
+*
+
+#unignore all with .extension
+!*.*
+
+#unignore all dirs
+!*/
+
+/.out
+/.exe
+/.h.gchcle
+*.out
+*.env
+*.txt
