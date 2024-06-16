@@ -61,7 +61,7 @@ int main()
     const clock_t begin_time = clock();
     sort(_array, size);
 
-    std::cout << "Time ellapesd " << float(clock() - begin_time) / CLOCKS_PER_SEC << "\n";
+    std::cout << "Time elapsed " << float(clock() - begin_time) / CLOCKS_PER_SEC << "\n";
 
     std::cout << "After Sort : ";
     print(_array, size);
